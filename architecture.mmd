@@ -1,0 +1,25 @@
+graph TD
+    subgraph User Interfaces
+        A[Volunteer App - Canvas App] --> C;
+        B[Coordinator App - Model-Driven App] --> C;
+    end
+
+    subgraph Core Logic
+        C{Microsoft Dataverse} -- Triggers --> D[Power Automate Flows];
+        D -- Updates --> C;
+    end
+
+    subgraph External Services
+        D -- Notifications --> E[Outlook / Twilio];
+    end
+
+    subgraph Analytics
+        C -- Data Feed --> F[Power BI Dashboard];
+    end
+
+    style A fill:#F2C811,stroke:#333,stroke-width:2px
+    style B fill:#F2C811,stroke:#333,stroke-width:2px
+    style C fill:#0078D4,stroke:#333,stroke-width:2px
+    style D fill:#742774,stroke:#333,stroke-width:2px
+    style E fill:#E81123,stroke:#333,stroke-width:2px
+    style F fill:#D95319,stroke:#333,stroke-width:2px

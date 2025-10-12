@@ -54,3 +54,27 @@ This platform is a low-code solution built on the Microsoft Power Platform, desi
 
 **Deployment is now complete.** Coordinators can begin adding volunteers and managing tasks, and the Power BI dashboard will reflect operations in real-time.
 
+
+
+
+## **System Architecture**
+
+The following diagram illustrates the high-level architecture of the platform, showing the relationships between the different Power Platform components.
+
+![System Architecture](architecture.png)
+
+
+
+
+## **Data Model**
+
+The solution utilizes several key tables within Dataverse to store and manage all operational data. The core tables are:
+
+| Table Name | Description | Key Columns |
+| --- | --- | --- |
+| **Volunteer** | Stores information about each registered volunteer. | `Name`, `ContactInfo`, `Skills`, `AvailabilityStatus` |
+| **Skill** | A lookup table for skills that volunteers can possess. | `SkillName`, `Description` |
+| **Task** | Contains details about each task that needs to be completed. | `TaskName`, `Description`, `Location`, `Status`, `AssignedVolunteer` |
+| **Resource** | Tracks physical resources or assets available for dispatch. | `ResourceName`, `ResourceType`, `CurrentLocation`, `Status` |
+| **Incident** | Records details of specific incidents or events being managed. | `IncidentName`, `Location`, `Description`, `StartTime` |
+
