@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "Open-Source Emergency Response Coordination Platform"
+version: "1.0.1"
+date-released: 2025-10-11
+authors:
+  - family-names: Neela
+    given-names: Ranjith Kumar
+repository-code: "https://github.com/rkneela0912/emergency-response-platform"
+license: MIT
