@@ -1,5 +1,9 @@
 # Open-Source Emergency Response Coordination Platform: Implementation Guide
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/rkneela0912/emergency-response-platform.svg)](https://github.com/rkneela0912/emergency-response-platform/stargazers)
+[![DOI](https://zenodo.org/badge/1074597773.svg)](https://doi.org/10.5281/zenodo.17381400)
+
 ## **Project Overview**
 
 This platform is a low-code solution built on the Microsoft Power Platform, designed to provide small municipalities and non-governmental organizations (NGOs) with a robust, low-cost system for coordinating emergency response efforts. It enables the management of volunteers, the dispatch of resources, and real-time operational oversight during a crisis.
