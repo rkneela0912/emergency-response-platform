@@ -1,0 +1,20 @@
+{
+  "title": "Open-Source Emergency Response Coordination Platform",
+  "upload_type": "software",
+  "description": "This low-code platform, built on the Microsoft Power Platform, offers small municipalities and NGOs a robust, low-cost system for coordinating emergency response, including volunteer and resource management and real-time operational oversight.",
+  "creators": [
+    { "name": "Neela, Ranjith Kumar"}
+  ],
+  "keywords": [
+    "Microsoft"
+  ],
+  "license": "MIT",
+  "access_right": "open",
+  "related_identifiers": [
+    {
+      "relation": "isSupplementTo",
+      "identifier": "https://github.com/rkneela0912/emergency-response-platform",
+      "scheme": "url"
+    }
+  ]
+}
